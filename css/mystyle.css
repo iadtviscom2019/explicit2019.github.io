@@ -1,0 +1,116 @@
+@font-face{
+font-family: 'akzidenz';
+src: url(../fonts/Akzidenz-grotesk-ce-roman.ttf) format('opentype'); 
+}
+
+@font-face{
+font-family: 'haptikthin';
+src: url(../fonts/gt-haptik-thin.otf) format('opentype'); 
+}
+/*https://www.w3schools.com/css/css3_fonts.asp*/
+
+a{
+    font-family: 'akzidenz'; 
+    font-size: 36px;
+    line-height: 42x;
+    color: #7C716E;
+    z-index: +100;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #C6BBB9;
+}
+
+.links{
+   opacity: 1; 
+}
+
+.links:hover{
+   opacity: .4;
+}
+
+h1{
+    font-family: 'akzidenz'; 
+    font-size: 36px;
+    line-height: 42x;
+    color: #7C716E;
+}
+
+h2{
+    font-family: 'akzidenz'; 
+    font-size: 20px;
+    line-height: 26px;
+    color: #7C716E;
+}
+
+body{
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+.top50{
+    margin-top: 50px;
+}
+
+.top100{
+    margin-top: 100px;
+}
+
+.top150{
+    margin-top: 150px;
+}
+
+.top200{
+    margin-top: 200px;
+}
+
+.top250{
+    margin-top: 250px;
+}
+
+.bottom100{
+    margin-bottom: 100px;
+}
+
+.bottom50{
+    margin-bottom: 50px;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+}
+
+.snuggle{
+    margin-left: -50px;
+}
+
+.sarah{
+    background-image: none;
+}
+
+.sarah:hover{
+    background-color: aqua;
+}
+
+
+.pictures img {
+  width: 100vw;
+  position: fixed;
+  z-index: -100;
+  opacity: 0;
+  pointer-events: none;
+  left: 0px;
+  top: 0px;
+}
+
+.pictures:hover img {
+  width: 100vw;
+  position: fixed;
+  z-index: -100;
+  opacity: 1;
+  pointer-events: none;
+  left: 0px;
+  top: 0px;
+}
