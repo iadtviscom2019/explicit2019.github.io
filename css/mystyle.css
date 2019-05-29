@@ -97,6 +97,7 @@ body{
   pointer-events: none;
   left: 0px;
   top: 0px;
+  transition: 0.5s;
 }
 
 .pictures:hover img {
@@ -107,6 +108,7 @@ body{
   pointer-events: none;
   left: 0px;
   top: 0px;
+ transition: 0.5s;
 }
 
 @media only screen and (max-width: 600px) {
