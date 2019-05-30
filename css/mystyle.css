@@ -114,6 +114,13 @@ body{
 @media only screen and (max-width: 600px) {
     
     .top250{
-    margin-top: 20vh;
+    margin-top: 100vh;
+        
+        
+}
+    
+    .top100{
+    position: absolute;
+    bottom: 10px;
 }
 }
