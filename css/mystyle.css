@@ -11,6 +11,19 @@ a{
     z-index: +100;
 }
 
+.bg-top{
+    transition: 1;
+
+    
+    
+}
+
+.bg-top:hover{
+      transition: 1;
+
+
+}
+
 a:hover{
     text-decoration: none;
     color: #C6BBB9;
